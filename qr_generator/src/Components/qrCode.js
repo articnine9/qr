@@ -15,7 +15,7 @@ const Qrcode = () => {
                     {tableNumbers.map(tableNumber => (
                         <div key={tableNumber} className="col-md-4 text-center mb-4">
                             <div className="qr-code-item">
-                                <QRCodeSVG value={`https://qr-scanning-customer-menu.netlify.app/`} />
+                                <QRCodeSVG value={`https://qr-foodorder-customer.netlify.app/`} />
                                 <p className="mt-2">Table {tableNumber}</p>
                             </div>
                         </div>
